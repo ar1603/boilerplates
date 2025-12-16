@@ -44,6 +44,7 @@ git config --global alias.gr "log --pretty=format:'%h %ad \| %s%d [%an]' --graph
 git config --global alias.gd "log --oneline --decorate"
 git config --global alias.gcr "log --oneline --decorate --color"
 git config --global alias.last "log -1 HEAD"
+git config --global alias.cann "commit -a --no-verify --no-amend"
 
 echo "Done!"
  
